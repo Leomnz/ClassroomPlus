@@ -1,9 +1,9 @@
 {
-  "name": "Classroom+",
-  "version": "0.1",
-  "description": "Build an Extension!",
-  "permissions": ["activeTab", "declarativeContent", "storage"],
-  "options_page": "options.html",
+    "name": "Classroom+",
+    "version": "0.1",
+    "description": "Google Classroom Plus",
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "options_page": "options.html",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
@@ -11,17 +11,17 @@
   "page_action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "images/ClassPlus_16x16.png",
-      "32": "images/ClassPlus_32x32.png",
-      "48": "images/ClassPlus_48x48.png",
-      "128": "images/ClassPlus_128x128.png"
-    }
-  },
-  "icons": {
-      "16": "images/ClassPlus_16x16.png",
-      "32": "images/ClassPlus_32x32.png",
-      "48": "images/ClassPlus_48x48.png",
-      "128": "images/ClassPlus_128x128.png"
-  },
-  "manifest_version": 2
+            "16": "images/ClassPlus_16x16.png",
+            "32": "images/ClassPlus_32x32.png",
+            "48": "images/ClassPlus_48x48.png",
+            "128": "images/ClassPlus_128x128.png"
+        }
+    },
+    "icons": {
+        "16": "images/ClassPlus_16x16.png",
+        "32": "images/ClassPlus_32x32.png",
+        "48": "images/ClassPlus_48x48.png",
+        "128": "images/ClassPlus_128x128.png"
+    },
+    "manifest_version": 2
 }
